@@ -1,0 +1,18 @@
+.creations {
+  padding: 70px 120px;
+}
+
+.creations-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creations-intro h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+}
+
+.creations-btn {
+  padding: 0px 30px;
+  background-color: #fff;
+}

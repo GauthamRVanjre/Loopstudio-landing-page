@@ -1,0 +1,42 @@
+header {
+  height: 80vh;
+  background-image: url("/src/images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.navbar {
+  color: #fff;
+  padding: 50px 70px;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-links ul li {
+  list-style-type: none;
+  padding: 0px 15px;
+  letter-spacing: 1px;
+}
+
+.nav-links ul li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.greeting {
+  width: 50%;
+  color: #fff;
+  font-size: 74px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 60px;
+  margin-top: 30px;
+  border: 4px solid #fff;
+  padding: 20px;
+}
