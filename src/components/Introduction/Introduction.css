@@ -2,9 +2,12 @@
   padding: 70px 120px;
 }
 
-.interactive-illustration {
+.interactive-desktop-illustration {
   width: 850px;
   height: 570px;
+}
+.interactive-mobile-illustration {
+  display: none;
 }
 .interactive-desc {
   transform: translateY(50%);
@@ -18,4 +21,32 @@
 
 .interactive-desc h3 {
   font-size: 64px;
+}
+
+@media screen and (max-width: 767px) {
+  .interactive-section {
+    padding: 70px 50px;
+  }
+  .interactive-desktop-illustration {
+    display: none;
+  }
+  .interactive-mobile-illustration {
+    display: block;
+    width: 450px;
+    margin-left: 40px;
+  }
+  .interactive-desc {
+    width: 450px;
+    transform: translateX(-10%);
+    margin-left: 0px;
+    text-align: center;
+  }
+  .interactive-desc h3 {
+    font-size: 42px;
+    letter-spacing: 1px;
+  }
+  .interactive-desc p {
+    font-family: "Alata", sans-serif;
+    opacity: 0.8;
+  }
 }

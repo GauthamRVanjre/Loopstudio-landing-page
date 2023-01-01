@@ -1,5 +1,6 @@
 import React from "react";
-import interactive from "../../images/desktop/image-interactive.jpg";
+import interactive_desktop from "../../images/desktop/image-interactive.jpg";
+import interactive_mobile from "../../images/mobile/image-interactive.jpg";
 import "./Introduction.css";
 
 const Introduction = () => {
@@ -7,14 +8,19 @@ const Introduction = () => {
     <>
       <div className="interactive-section">
         <div className="row">
-          <div className="col-4">
+          <div className="col-lg-4 col-sm-12">
             <img
-              className="interactive-illustration"
-              src={interactive}
+              className="interactive-desktop-illustration"
+              src={interactive_desktop}
               alt="interactive"
             />
+            <img
+              className="interactive-mobile-illustration"
+              src={interactive_mobile}
+              alt="interactive mobile"
+            />
           </div>
-          <div className="col-4 interactive-desc">
+          <div className="col-lg-4 col-sm-12 interactive-desc">
             <h3>The leader in interactive VR</h3>
             <p>
               Founded in 2011, Loopstudios has been producing world-class

@@ -78,7 +78,7 @@ header {
     top: 100px;
     margin-left: -70px;
     width: 100%;
-    height: calc(100vh);
+    height: 100vh;
     border-radius: 10px;
   }
 
