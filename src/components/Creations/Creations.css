@@ -16,3 +16,30 @@
   padding: 0px 30px;
   background-color: #fff;
 }
+
+.creations-cards-container {
+  margin-top: 90px;
+}
+
+.col {
+  padding: 20px;
+}
+
+.col p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  color: #fff;
+  margin-top: -60px;
+
+  padding-left: 30px;
+}
+
+.col:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.creations-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
