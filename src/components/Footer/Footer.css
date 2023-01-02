@@ -46,3 +46,39 @@ li:hover {
   border-bottom: 1px solid #fff;
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: 500px;
+  }
+  .icons-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logos-container {
+    margin-top: 30px;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .footer-links li {
+    padding-top: 20px;
+  }
+
+  .footer-copyright {
+    margin-top: 20px;
+  }
+}

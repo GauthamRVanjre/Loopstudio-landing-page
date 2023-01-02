@@ -17,15 +17,31 @@
   background-color: #fff;
 }
 
+.mobile-btn {
+  display: none;
+}
+
 .creations-cards-container {
   margin-top: 90px;
 }
 
-.col {
+.col-lg-3 {
   padding: 20px;
 }
 
-.col p {
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.col-lg-3 img {
+  width: 100%;
+}
+
+.col-lg-3 p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
   color: #fff;
@@ -34,7 +50,7 @@
   padding-left: 30px;
 }
 
-.col:hover {
+.col-lg-3:hover {
   cursor: pointer;
   opacity: 0.6;
 }
@@ -42,4 +58,41 @@
 .creations-btn:hover {
   background-color: #000;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .creations {
+    margin-top: 50px;
+  }
+  .creations-intro {
+    margin-bottom: -50px;
+  }
+  .desktop-btn {
+    display: none;
+  }
+  .mobile-btn {
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+    width: 250px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 18px;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .col-sm-12 {
+    height: 250px;
+    max-width: 650px;
+    width: 100%;
+    margin-left: -10px;
+  }
+  .mobile-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
 }
